@@ -1,0 +1,14 @@
+Welcome to Cloud Shell! Type "help" to get started.
+To set your Cloud Platform project in this session use 'gcloud config set project [PROJECT_ID]"
+mandaaaw13@cloudshell:~$ pico latihan3.sh
+mandaaaw13@cloudshell:~$ cat latihan3.sh
+#!/bin/bash
+echo "script untuk menerima input"
+echo "======================================"
+echo "Oktalidah Ramadayanti Purnomo"
+read Nama
+echo "======================================="
+echo "nama saya adalah : " Nama
+echo "menonton bts :"
+read Hobi
+echo "hobi saya adalah :" Hobi
